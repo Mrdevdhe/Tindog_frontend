@@ -1,0 +1,154 @@
+body{
+    font-family: Montserrat;
+}
+#title{
+    background-color:rgb(255, 70, 95);
+}
+h1{
+    font-family: Montserrat;
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 3% 15%;
+   padding-bottom: 0;
+}
+.navbar{
+    padding-bottom: 5%;
+   
+}
+.navbar-brand{
+    font-size: 200%;
+    font-family: "Ubuntu";
+    font-weight: bold;
+}
+.navbar-item{
+    text-align: right;
+    font-weight: 1%;
+    font-size: 1.2rem;
+    font-style: "Montserrat-light";
+    
+}
+.dbtn{
+    margin: 5% 3% 5% 0;
+}
+.title-img{
+    width: 60%;
+    transform: rotate(25deg);
+    margin:0 30px;
+}
+
+@media (max-width: 1090px){
+    .title-img{
+        transform: rotate(0);
+        position: static;
+        margin:0 30px 30px;
+    }
+    #title{
+        text-align: center;
+    }
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    
+}
+h3{
+    font-family: "Montserrat" ;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+.ficon{
+    color: rgb(247, 117, 134);
+    margin-bottom: 8%;
+}
+.ficon:hover{
+    color: rgb(255, 70, 95);
+}
+#features{
+    padding: 7% 15%;
+    
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+p{
+    font-family: "montserrat";
+    color: #8f8f8f;
+}
+#testimonials{
+    padding: 7% 15%;
+    background-color: rgb(254, 84, 107);
+    text-align: center;
+    color: #fff;
+}
+h2{
+    font-family: "montserrat";
+    font-weight: bold;
+    font-size: 3rem;
+
+}
+.tphoto{
+    border-radius: 100%;
+    width: 15%;
+    margin: 20px;
+}
+#press{
+    background-color: rgb(254, 84, 107);
+    text-align: center;
+    padding: 20px 20px 50px;
+}
+.press-logo{
+    width: 10%;
+    margin: 15px;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.btn{
+    border-width: 2px;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+.card-header{
+    background-color:rgb(255, 70, 95) ;
+    color: #fff;
+}
+.card-header:hover{
+    background-color: rgb(230, 33, 69);
+}
+#cta{
+    background-color: rgb(255, 70, 95);
+    padding: 7% 15%;
+    line-height: 6.5;
+    text-align: center;
+    font-family: "Montserrat";
+    color: #fff;
+    }
+.findtitle{
+    font-size: 350%;
+}
+.lbtn{
+    margin: 0 1%;
+}
+#footer{
+    background-color: #fff;
+    padding: 3% 15%;
+    text-align: center;
+    line-height: 3;
+}
+.app{
+    margin: 10px;
+}
+.name{
+    font-size: 1rem;
+}
